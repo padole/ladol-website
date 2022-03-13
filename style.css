@@ -1,0 +1,417 @@
+/* Header*/
+.container{
+    width: 1000px;
+    justify-content: center;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    margin: 5px 100px 100px 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    font-size: medium;
+}
+
+.header h1{
+     font-size: medium;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+.zone img{
+     width: 20px;
+     height: 20px;
+     float: right;
+     margin: 3px;
+     border-radius: 50px;
+}
+
+hr{
+    margin: 0 30px 0 30px;
+}
+
+.navigation{
+    margin-left: 30px;
+}
+
+nav{
+    width: 80%;
+    background: #ffff;
+    height: 80px;
+}
+ ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+}
+
+ul li{
+    float: left;
+    
+}
+
+   ul li a{ 
+    display: block;
+    text-decoration: none;  
+    padding: 15px;
+    color: #000;
+}
+
+nav a:hover{
+   background: steelblue;
+}
+
+  ul li ul{
+    background: rgb(250, 250, 250);
+    width: 300px;
+    border: 1px ;
+}
+
+ul li ul li{
+    float: none;
+}
+
+ul li ul{
+    display: none;
+}
+
+ul li:hover ul{
+    display: block;
+
+}
+
+/* Home Section*/
+
+
+#pic1 img{
+    margin: 20px;
+    width: 600px;
+    height: 470px;
+}
+
+.west{
+    max-width: 600px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px 100px 0 80px;
+    
+}
+
+.west h4{
+    font-size: large; 
+    font-weight: lighter;
+    
+}
+
+.west p{
+    font-size: x-small;
+}
+
+.west p a{
+    text-decoration: none;
+    background: none;
+    color: crimson;
+}
+ .news{
+     display: flex;
+ }
+
+ .latest-news{
+     margin-top: 15px;
+     
+ }
+
+ .sam{
+     font-size: large;
+     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     margin: 0 30px 0 15px; 
+     
+ }
+
+ .sam a{
+     text-decoration: none;
+     color: #000; 
+ }
+
+ .sam a:hover{
+     background: none;
+     color: coral;
+ }
+
+ .inter{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin: 0 30px 0 15px;  
+}
+
+.inter a{
+    text-decoration: none;
+    color: #000; 
+}
+
+.inter a:hover{
+    background: none;
+    color: coral;
+}
+
+.feb{
+    font-size: x-small;
+    font-weight: lighter;
+}
+.section1{
+    display: flex;
+}
+
+.news img{
+    width: 100px;
+    height: 70px;
+    margin-left: 15px;
+    
+}
+
+.iso-pic{
+    display: flex;
+    margin:20px 20px 10px 0;
+}
+
+.iso-pic img{
+    width: 60px;
+    height: 40px;
+    margin-right:10px ;
+    margin-left: 10px;
+}
+
+.lad{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+/* About us section*/
+
+.about-banner img{
+    width: 950px;
+    height: 300px;
+    margin: 30px;
+}
+
+.integration{
+    display: flex;
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.integration a{
+    text-decoration: none;
+    color: #000;
+    font-weight: lighter;
+    font-size: large;
+}
+
+.integration a:hover{
+    color: red;
+
+}
+
+.integration p{
+    font-size: smaller;
+    color: rgb(155, 149, 149);
+    
+}
+
+.fully{
+    margin: 0 50px 0 50px;
+    max-width: 25rem;  
+}
+
+.high-value{
+    max-width: 25rem;
+}
+
+.high-value hr{
+    width: 25rem;
+    margin: 0%;
+}
+
+.fully hr{
+    margin: 0;
+}
+
+/*Service section*/
+
+.service-banner img{
+    width: 950px;
+    height: 300px;
+    margin: 30px;
+}
+/* Footer section*/
+
+
+.footer{
+    display: flex;
+    margin: 100px 20px 50px 18px;
+}
+
+.footer h1{
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.contact-us{
+    font-size: small; 
+    margin: 0 35px 20px 20px;   
+}
+
+
+.related-link{
+    margin:0 10px 20px 10px;
+}
+
+.related-link a{
+    font-size: small;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.related-link a:hover{
+    background: none;
+    color: red;
+}
+
+.media-contact{
+    font-size: small;
+    margin:0 10px 20px 10px;
+}
+.media-contact a{
+    text-decoration: none;
+}
+
+.media-contact a:hover{
+    background: none;
+    color: red;
+}
+
+.offical{
+    width: 250px;
+    height: 60vh;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: none ;
+    background-color: rgb(249, 252, 255);   
+}
+
+#twitter-img1{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 0;
+}
+
+.logo5{
+    margin: 20px;
+    display: flex;
+}
+
+#lad5{
+    margin-left: 30px;
+}
+
+#lad6 a{
+text-decoration: none;
+color: #000;
+}
+
+#lad6 a:hover{
+    color: rgb(94, 94, 245);
+    }
+
+    #lad8 a{
+     text-decoration: none;
+     color: rgb(130, 130, 214);
+    }
+
+    #lad10{
+        font-weight: bolder;
+        font-size: x-large;
+    }
+
+.offical p a{
+    text-decoration: none;
+    color: rgb(94, 94, 245);
+    font-size: small;
+}
+
+.offical p{
+    margin: 20px;
+}
+
+#lad7{
+    width: 200px;
+    height: 120px;
+    margin: 0 20px 10px 20px;
+}
+
+.heart img{
+    width: 20px;
+    height: 20px;
+    margin: 10px 5px 0 20px;
+}
+
+.heart{
+    display: flex;
+}
+
+.heart a{
+    font-size: small;
+    color:rgb(94, 94, 245);
+}
+.heart a:hover{
+    text-decoration: none;
+}
+
+#date{
+    margin: 10px 30px 0 50px;
+}
+
+#share1 img{
+    width: 15px;
+    height: 15px;
+}
+
+.embed{
+    margin: 10px;
+}
+
+.embed a{
+    text-decoration: none;
+    font-size: small;
+    color: rgb(94, 94, 245);
+}
+
+#lad11{
+    margin-left: 60px;
+}
+
+.twitter-footer{
+    margin-left: 20px;
+}
+
+.copyright img{
+    width: 15px;
+    height: 15px;
+    padding-bottom: 10px;
+}
+
+.copyright{
+    font-size: x-small;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+
+
+
+
+
